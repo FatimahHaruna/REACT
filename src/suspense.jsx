@@ -1,5 +1,5 @@
 import { Suspense, lazy } from "react"
-const List = lazy(() => import("./list"))
+const List = lazy(() => import("./List"))
 
 function SuspenseList() {
     return (
