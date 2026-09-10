@@ -1,6 +1,8 @@
 import { useState } from 'react';
 
 function FavoriteColor() {
+    //first value is the state variable, second value is the function to update the state variable
+    //Red is the initial value of the state variable
     const [color, setColor] = useState("Red");
 
     return (
