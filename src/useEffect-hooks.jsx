@@ -12,10 +12,10 @@ function Timer() {
         setTimeout(() => {
             setCount((count) => count + 1)
         }, 1000);
-    })
+    }, [])
 
     return (
-        <h4>Count: {count}</h4>
+        <h4>Timer: {count}</h4>
     )
 }
 

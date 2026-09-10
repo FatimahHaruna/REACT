@@ -5,6 +5,7 @@ import Sport from "./Radio"
 import FavoriteColor from "./useState-hooks"
 import SuspenseList from "./suspense"
 import Timer from "./useEffect-hooks"
+import Counter from "./useEffect-hooks"
 
 const root = createRoot(document.getElementById("root"))
 
@@ -16,5 +17,6 @@ root.render(
     <FavoriteColor />
     <Sport />
     <Timer />
+    <Counter />
   </>
 )
